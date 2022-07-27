@@ -17,8 +17,8 @@ export default {
 	data() {
 		return {
 			items: [
-				"/color/blue",
-				"/color/red",
+				"/color/4343a5",
+				"/color/a54343",
 			],
 		};
 	},
@@ -36,10 +36,10 @@ export default {
 	display: flex;
 	justify-content: center;
 
-	height: 100vh;
+	height: calc(100vh - 48px);
 	box-sizing: border-box;
-	grid-gap: 2px;
-	padding: 2px;
+	grid-gap: 8px;
+	padding: 8px;
 
 	& > * {
 	  width: 100%;

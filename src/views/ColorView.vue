@@ -1,5 +1,5 @@
 <template>
-	<main :style="`background-color: ${color}`">
+	<main :style="`background-color: #${color}`">
 
 	</main>
 </template>

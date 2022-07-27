@@ -6,16 +6,15 @@
 
 <style lang="scss">
 .header {
-	position: absolute;
-	z-index: 1;
-
-	left: 45%;
-
-	bottom: 0;
 	height: 48px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	padding-inline: 1em;
+	top: 0;
 
-	background: #1a1f25;
-	color: white;
+	color: aliceblue;
+	background: #1e2231;
 
 	h1 {
 		margin-block: 0;
