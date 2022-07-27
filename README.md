@@ -1,35 +1,42 @@
 # Arcadmin
 
-This template should help get you started developing with Vue 3 in Vite.
+Manage multiple tools in a single tiled view system 
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+# Installation
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Download the repository with the following command:
 
-## Project Setup
-
-```sh
-npm install
+```bash
+git clone https://github.com/Sigmanificient/arcadmin.git
+cd arcadmin
 ```
 
-### Compile and Hot-Reload for Development
+If you are using a Linux distribution, you can quickstart the project using
 
-```sh
-npm run dev
+```bash
+make
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
+Otherwise, use your favorite package manager to install the dependencies.
+```bash
+yarn install
 ```
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
+Run the project:
+```bash
+yarn dev
 ```
+
+# Features
+
+The Arcadmin project provides an all-in-one, tiled view system for managing multiple tools.
+
+![](assets/split_half.png)
+
+![](assets/split_quad.png)
+
+
+It comes with a built-in dark-mode toggle for tools that do not support dark mode.
+Note that the dark mode may not work correctly on all tools.
